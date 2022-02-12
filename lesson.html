@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson</title>
+  <link rel="stylesheet" href="styles/startup_style.css">
+  <link rel="stylesheet" href="styles/lesson_style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="js/index.js"></script>
+</head>
+<body>
+<div class="startup-content">
+  <div class="ellipse ellipse-1"></div>
+  <div class="ellipse ellipse-2"></div>
+  <div class="ellipse ellipse-3"></div>
+  <div class="ellipse ellipse-4"></div>
+  <header class="logo">
+    <img class="logo-icon" src="img/startup-logo.png" alt="Logo of the site">
+  </header>
+  <nav class="nav-menu">
+    <div class="burger-menu" onclick="openNav()">
+      <img class="burger-menu-icon" src="img/burger-menu.png" alt="Burger menu">
+    </div>
+    <input class="login-button" type="button" name="login" id="login" value="Login"/>
+  </nav>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">
+      <img class="burger-menu-side" src="img/burger-menu.png" alt="Burger menu">
+    </a>
+    <div class="side-section-1">
+      <a class="side-link" href="lesson.html">Заняття</a>
+      <a class="side-link" href="about.html">Про мене</a>
+      <a class="side-link" href="eating.html">Харчування</a>
+      <a class="side-link" href="reviews.html">Відгуки</a>
+      <a class="side-link" href="service.html">Про сервіс</a>
+    </div>
+    <div class="side-section-2">
+      <a class="side-link" href="">Увійти</a>
+      <a class="side-link" href="">Зареєструватися</a>
+      <a class="side-link" href="">Пробне заняття</a>
+      <a class="side-link-special" href="">Отримати подарунок</a>
+    </div>
+    <div class="side-section-3">
+      <div class="side-logo">
+        <img class="logo-icon" src="img/startup-logo.png" alt="Logo of the site">
+      </div>
+      <div class="side-media">
+        <img class="side-media-img" src="img/instagram.png" alt="Instagram">
+        <img class="side-media-img" src="img/post.png" alt="Post">
+        <img class="side-media-img" src="img/facebook.png" alt="Facebook">
+      </div>
+    </div>
+  </div>
+  <div class="lessons">
+    <div class="lesson-card">
+      <img class="lesson-img" src="img/sneaker.png" alt="Sneaker img">
+      <h2 class="lesson-header">Тренування</h2>
+      <p class="lesson-description">Purus consectetur nunc, squelchier</p>
+      <a class="lesson-link" href="">Детальніше</a>
+    </div>
+    <div class="lesson-card">
+      <img class="lesson-img" src="img/woman-athletics.png" alt="Sneaker img">
+      <h2 class="lesson-header">Марафон</h2>
+      <p class="lesson-description">Purus consectetur nunc, sceleris quenunc</p>
+      <a class="lesson-link" href="">Детальніше</a>
+    </div>
+    <div class="lesson-card">
+      <img class="lesson-img" src="img/healthy-eating.png" alt="Sneaker img">
+      <h2 class="lesson-header">Харчування</h2>
+      <p class="lesson-description">Purus consectetur nuncr</p>
+      <a class="lesson-link" href="">Детальніше</a>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="slider-top-container">
+      <p class="slider-range-start">02</p>
+      <p class="slider-range-end">06</p>
+    </div>
+    <div class="slider-line">
+      <svg class="slider-line-start">
+        <line x1="40" y1="0" x2="80" y2="0" style="stroke:rgba(255,255,255,1);stroke-width:2"/>
+      </svg>
+      <svg class="slider-line-end">
+        <line x1="0" y1="0" x2="240" y2="0" style="stroke:rgba(255,255,255,0.3);stroke-width:2"/>
+      </svg>
+    </div>
+    <div class="slider-links">
+      <a class="slider-link" href="index.html"><span class="material-icons">arrow_back_ios</span></a>
+      <p class="slider-info">Lorem ipsum</p>
+      <a class="slider-link" href="about.html"><span class="material-icons"> arrow_forward_ios</span></a>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-flex">
+      <div class="footer-info">
+        <h2 class="footer-heading">Марафон</h2>
+        <p class="footer-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus netus
+          adipiscing.</p>
+      </div>
+      <div class="footer-gift">
+        <img class="footer-gift-img" src="img/gift-link.png" alt="Gift link">
+        <a class='footer-gift-link' href="">Подарунок для тебе</a>
+      </div>
+    </div>
+    <div class="footer-vid">
+      <img class="footer-vid-elem" src="img/vid.png" alt="Video">
+    </div>
+  </footer>
+</div>
+<script>
+
+</script>
+</body>
+</html>

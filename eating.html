@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FNS Fit</title>
+  <link rel="stylesheet" href="styles/startup_style.css">
+  <link rel="stylesheet" href="styles/eating.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="js/index.js"></script>
+</head>
+<body>
+<!--Animation on startup-->
+<div class="startup-content">
+  <header class="logo">
+    <img class="logo-icon" src="img/startup-logo.png" alt="Logo of the site">
+  </header>
+  <nav class="nav-menu">
+    <div class="burger-menu" onclick="openNav()">
+      <img class="burger-menu-icon" src="img/burger-menu.png" alt="Burger menu">
+    </div>
+    <input class="login-button" type="button" name="login" id="login" value="Login"/>
+  </nav>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">
+      <img class="burger-menu-side" src="img/burger-menu.png" alt="Burger menu">
+    </a>
+    <div class="side-section-1">
+      <a class="side-link" href="lesson.html">Заняття</a>
+      <a class="side-link" href="about.html">Про мене</a>
+      <a class="side-link" href="eating.html">Харчування</a>
+      <a class="side-link" href="reviews.html">Відгуки</a>
+      <a class="side-link" href="service.html">Про сервіс</a>
+    </div>
+    <div class="side-section-2">
+      <a class="side-link" href="">Увійти</a>
+      <a class="side-link" href="">Зареєструватися</a>
+      <a class="side-link" href="">Пробне заняття</a>
+      <a class="side-link-special" href="">Отримати подарунок</a>
+    </div>
+    <div class="side-section-3">
+      <div class="side-logo">
+        <img class="logo-icon" src="img/startup-logo.png" alt="Logo of the site">
+      </div>
+      <div class="side-media">
+        <img class="side-media-img" src="img/instagram.png" alt="Instagram">
+        <img class="side-media-img" src="img/post.png" alt="Post">
+        <img class="side-media-img" src="img/facebook.png" alt="Facebook">
+      </div>
+    </div>
+  </div>
+  <img class="salad" src="img/salad.png" alt="Salad">
+  <div class="task task1">
+    <p class="task-info">Lorem ipsum dolor dolor</p>
+  </div>
+  <svg class="task-line1">
+    <line x1="0" y1="0" x2="280" y2="200" style="stroke:rgba(0,255,108,1);stroke-width:2"/>
+    <circle r="5" cx="280" cy="200" fill="rgba(0,255,108,1)"></circle>
+  </svg>
+  <div class="task task2">
+    <p class="task-info">Lorem ipsum dolor dolor</p>
+  </div>
+  <svg class="task-line2">
+    <line x1="0" y1="0" x2="320" y2="105" style="stroke:rgba(0,255,108,1);stroke-width:2"/>
+    <circle r="5" cx="320" cy="105" fill="rgba(0,255,108,1)"></circle>
+  </svg>
+  <div class="task task3">
+    <p class="task-info">Lorem ipsum dolor dolor</p>
+  </div>
+  <svg class="task3-line">
+    <line x1="230" y1="4" x2="0" y2="115" style="stroke:rgba(0,255,108,1);stroke-width:2"/>
+    <circle r="5" cx="230" cy="5" fill="rgba(0,255,108,1)"></circle>
+  </svg>
+  <div class="task task4">
+    <p class="task-info">Lorem ipsum dolor dolor</p>
+  </div>
+  <svg class="task4-line">
+    <line x1="280" y1="20" x2="0" y2="155" style="stroke:rgba(0,255,108,1);stroke-width:2"/>
+    <circle r="5" cx="5" cy="153" fill="rgba(0,255,108,1)"></circle>
+  </svg>
+  <div class="task task5">
+    <p class="task-info">Lorem ipsum dolor dolor</p>
+  </div>
+  <svg class="task5-line">
+    <line x1="400" y1="20" x2="50" y2="90" style="stroke:rgba(0,255,108,1);stroke-width:2"/>
+    <circle r="5" cx="50" cy="90" fill="rgba(0,255,108,1)"></circle>
+  </svg>
+  <div class="task task6">
+    <p class="task-info">Lorem ipsum dolor dolor</p>
+  </div>
+  <svg class="task6-line">
+    <line x1="10" y1="10" x2="250" y2="180" style="stroke:rgba(0,255,108,1);stroke-width:2"/>
+    <circle r="5" cx="10" cy="10" fill="rgba(0,255,108,1)"></circle>
+  </svg>
+  <div class="slider">
+    <div class="slider-top-container">
+      <p class="slider-range-start">04</p>
+      <p class="slider-range-end">06</p>
+    </div>
+    <div class="slider-line">
+      <svg class="slider-line-start">
+        <line x1="120" y1="0" x2="160" y2="0" style="stroke:rgba(255,255,255,1);stroke-width:2"/>
+      </svg>
+      <svg class="slider-line-end">
+        <line x1="0" y1="0" x2="240" y2="0" style="stroke:rgba(255,255,255,0.3);stroke-width:2"/>
+      </svg>
+    </div>
+    <div class="slider-links">
+      <a class="slider-link" href="about.html"><span class="material-icons">arrow_back_ios</span></a>
+      <p class="slider-info">Lorem ipsum</p>
+      <a class="slider-link" href="reviews.html"><span class="material-icons"> arrow_forward_ios</span></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

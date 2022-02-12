@@ -1,0 +1,25 @@
+body{animation:none;background-color:#00FF6C;}
+.startup-content{animation-delay:2s;opacity:0;position:relative;z-index:10;}
+.slider{animation:show-content 1s linear forwards;animation-delay:2s;left:calc(50% - 120px);opacity:0;position:absolute;top:85%;}
+.big-ellipse{animation:scale 2s cubic-bezier(0.390,0.575,0.565,1.000);background-color:#000;border-radius:50%;height:1100px;left:-50px;position:absolute;top:-500px;width:2900px;z-index:1;}
+@keyframes scale {
+  0%{transform:scale(2);}
+  100%{transform:scale(1);}
+}
+.slider-line-start,.slider-line-end{height:3px;}
+.slider-info{color:#000;font-weight:700;}
+.reviews-cards{align-items:center;animation:show-cards 2s cubic-bezier(0.390,0.575,0.565,1.000) forwards 3s;column-gap:100px;display:flex;flex-direction:row;justify-content:center;opacity:0;position:absolute;top:25%;width:100%;z-index:4;}
+.card{animation:review-reverse 2s cubic-bezier(0.390,0.575,0.565,1.000);background:#FFF;border-radius:42px;height:450px;opacity:1;width:270px;}
+.card:hover{animation:review 2s cubic-bezier(0.390,0.575,0.565,1.000);}
+.slider-range-start,.slider-range-end,.black-color{color:#000;}
+@keyframes show-cards {
+  100%{opacity:1;}
+}
+@keyframes review {
+  0%{transform:scale(1);}
+  100%{transform:scale(1.5);}
+}
+@keyframes review-reverse {
+  0%{transform:scale(1.5);}
+  100%{transform:scale(1);}
+}

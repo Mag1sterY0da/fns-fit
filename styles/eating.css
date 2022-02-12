@@ -1,0 +1,27 @@
+body{animation:none;background-color:#000;}
+.startup-content{animation:show-content 3s linear forwards;animation-delay:0s;}
+.slider{left:calc(50% - 120px);top:85%;}
+.salad{left:calc(50% - 755% / 1024 / 5 * 100);max-height:calc(730% / 1440 * 100);max-width:calc(755% / 1024 * 100);position:absolute;top:25%;}
+.task{animation:task-reverse 2s cubic-bezier(0.390,0.575,0.565,1.000);background:#00FF6C;border:1px solid #00FF6C;border-radius:15px;box-shadow:0 15px 9px -8px rgba(25,216,105,0.3);box-sizing:border-box;height:50px;position:absolute;width:295px;}
+.task:hover{animation:task 2s cubic-bezier(0.390,0.575,0.565,1.000);}
+@keyframes task {
+  0%{transform:scale(1);}
+  100%{transform:scale(1.5);}
+}
+@keyframes task-reverse {
+  0%{transform:scale(1.5);}
+  100%{transform:scale(1);}
+}
+.task-info{color:#000;font-family:'Roboto',sans-serif;font-size:18px;font-style:normal;font-weight:700;line-height:21px;margin:15px 0;padding:0 40px;}
+.task1{left:15%;top:20%;}
+.task-line1{height:400px;left:15%;margin-left:285px;margin-top:-10px;position:absolute;top:25%;width:400px;}
+.task2{left:10%;top:40%;}
+.task-line2{height:400px;left:10%;margin-left:285px;margin-top:-10px;position:absolute;top:45%;width:400px;}
+.task3{left:20%;top:65%;}
+.task3-line{bottom:160px;height:250px;left:calc(20% + 290px);position:absolute;top:54%;}
+.task4{left:70%;top:30%;}
+.task4-line{bottom:50px;height:200px;left:calc(70% - 280px);margin:0;position:absolute;top:30%;}
+.task5{left:75%;top:50%;}
+.task5-line{bottom:50px;height:200px;left:calc(75% - 380px);margin:0;position:absolute;top:50%;width:400px;}
+.task6{left:68%;top:75%;}
+.task6-line{height:200px;left:calc(68% - 240px);margin:0;position:absolute;top:calc(75% - 150px);width:250px;}

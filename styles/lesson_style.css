@@ -1,0 +1,35 @@
+body{animation:none;background-color:#000;}
+.startup-content{animation:show-content 2s linear forwards;animation-delay:0s;}
+.ellipse-1{animation:none;background:#53675A;filter:blur(100px);height:152px;left:45%;opacity:.8;top:72%;transform:matrix(0.97,0.27,-0.24,0.96,0,0);width:285px;}
+.ellipse-2{animation:none;background:#CA502B;bottom:0;filter:blur(100px);height:184px;left:27%;margin-top:8%;opacity:.8;transform:rotate(21.9deg);width:206px;}
+.ellipse-3{animation:none;background:rgba(0,255,108,0.89);bottom:0;filter:blur(100px);height:255px;left:40%;opacity:.8;top:80%;transform:matrix(0.97,0.27,-0.24,0.96,0,0);width:285px;}
+.ellipse-4{animation:none;background:#CA502B;filter:blur(100px);height:155px;left:26%;opacity:.8;top:84%;transform:matrix(0.68,0.68,-0.8,0.67,0,0);width:280px;}
+.slider{top:60%;}
+.slider-line-start{width:240px;}
+.lessons{align-items:center;column-gap:20px;display:flex;flex-direction:row;justify-content:center;margin:7% auto;}
+.lesson-card{align-items:center;animation:lesson-card-reverse 1s cubic-bezier(0.645,0.045,0.355,1.000) both;background-color:rgba(23,236,113,0.7);border-radius:35px;display:flex;flex-direction:column;height:100%;padding:2% .5%;width:15%;}
+.lesson-link{color:#000;display:none;font-family:'Roboto',sans-serif;font-size:18px;font-style:normal;font-weight:700;line-height:21px;opacity:0;text-decoration:none;}
+.lesson-card:hover{animation:lesson-card 1s cubic-bezier(0.645,0.045,0.355,1.000) both,margin 2s cubic-bezier(0.645,0.045,0.355,1.000) both;}
+.lesson-card:hover .lesson-description{animation:change-max-width 1s linear forwards;max-width:160px;}
+.lesson-card:hover .lesson-link{animation:show-content 1s linear forwards;display:block;}
+@keyframes margin {
+  0%{margin-top:0;}
+  100%{margin-bottom:-10%;}
+}
+@keyframes lesson-card {
+  0%{transform:scaleY(1);transform-origin:top;}
+  25%{transform:scaleY(0.95);transform-origin:top;}
+  100%{background:#00FF6C;box-shadow:0 9px 111px -12px #19D869;margin-bottom:-10%;margin-left:2%;margin-right:2%;transform:scaleY(1);transform-origin:top;}
+}
+@keyframes lesson-card-reverse {
+  0%{background:#00FF6C;box-shadow:0 9px 111px -12px #19D869;margin-bottom:-10%;margin-left:2%;margin-right:2%;transform:scaleY(1);transform-origin:top;}
+  75%{transform:scaleY(0.95);transform-origin:top;}
+  100%{background-color:rgba(23,236,113,0.7);transform:scaleY(1);transform-origin:top;}
+}
+@keyframes change-max-width {
+  0%{max-width:190px;}
+  100%{max-width:160px;}
+}
+.lesson-img{height:40px;margin:20% 0 15%;width:40px;}
+.lesson-header{color:#000;font-family:'Prosto One',sans-serif;font-size:24px;font-style:normal;font-weight:400;line-height:30px;margin:0;text-align:center;}
+.lesson-description{color:#53675A;font-family:'Roboto',sans-serif;font-size:18px;font-style:normal;font-weight:700;line-height:21px;max-width:190px;text-align:center;}
