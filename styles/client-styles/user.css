@@ -999,12 +999,12 @@ body {
   color: #00290e;
 }
 
-.training-tasks {
+.training-tasks-block {
   margin-top: 18px;
   columns: 2;
 }
 
-.training-task-item {
+.training-task-item-block {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1014,7 +1014,7 @@ body {
   margin-bottom: 18px;
 }
 
-.training-task-item:before {
+.training-task-item-block:before {
   box-shadow: 4px 9px 10px rgba(83, 103, 90, 0.5);
 }
 
