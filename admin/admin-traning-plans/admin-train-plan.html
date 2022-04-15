@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Admin Train plan</title>
+    <link rel="stylesheet" href="../../styles/startup_style.css" />
+    <link rel="stylesheet" href="../../styles/client-styles/user.css" />
+    <link
+      rel="stylesheet"
+      href="../../styles/client-styles/training-plans/train-plan.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../styles/admin-styles/admin-training-plans/admin-train-plan.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Ellipses-->
+    <div class="grid grid--user">
+      <div class="user-sidenav">
+        <div class="ellipse ellipse-1"></div>
+        <div class="ellipse ellipse-2"></div>
+        <div class="ellipse ellipse-3"></div>
+        <div class="ellipse ellipse-4"></div>
+        <div class="side-logo">
+          <img
+            class="logo-icon"
+            src="../../img/startup-logo.png"
+            alt="Logo of the site"
+          />
+        </div>
+
+        <nav class="nav">
+          <ul class="links">
+            <li>
+              <a class="link" href="../admin.html">
+                <img
+                  src="../../img/home-icon.png"
+                  alt="Link icon"
+                  class="link-icon"
+                />
+                <span class="text-link"> Основна </span>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="../admin-info.html">
+                <img
+                  src="../../img/acc.png"
+                  alt="Link icon"
+                  class="link-icon"
+                />
+                <span class="text-link"> Аккаунти </span>
+              </a>
+            </li>
+            <li class="link-highlighted">
+              <a class="link" href="../admin-training.html">
+                <img
+                  src="../../img/task.png"
+                  alt="Link icon"
+                  class="link-icon"
+                />
+                <span class="text-link"> Тренування </span>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="../admin-marathon.html">
+                <img
+                  src="../../img/sneaker_white.png"
+                  alt="Link icon"
+                  class="link-icon"
+                />
+                <span class="text-link"> Марафони </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <footer class="footer-sidenav">
+          <div class="side-media">
+            <img
+              class="side-media-img"
+              src="../../img/instagram.png"
+              alt="Instagram"
+            />
+            <img class="side-media-img" src="../../img/post.png" alt="Post" />
+            <img
+              class="side-media-img"
+              src="../../img/facebook.png"
+              alt="Facebook"
+            />
+          </div>
+        </footer>
+      </div>
+
+      <div class="container">
+        <div class="header">
+          <div class="greeting-container">
+            <h1 class="greeting"></h1>
+            <h2 class="welcome">Вітаємо тебе у системі FANSFIT</h2>
+          </div>
+          <div>
+            <img src="../../img/startup-logo.png" alt="Logo of the site" />
+          </div>
+        </div>
+
+        <div class="training-preposition">Обери своє тренування</div>
+
+        <div class="general-page show">
+          <section class="general-page-slider">
+            <div class="slide">
+              <button class="slide-button chosed-button">
+                <span class="slide-icon">
+                  <img
+                    src="../../img/ease-training-icon.png"
+                    alt="Plus icon"
+                    class="slide-icon-img"
+                  />
+                </span>
+                <span class="slide-button-text">
+                  <span>Новачок</span> <br />
+                  <span>Легкий рівень</span>
+                </span>
+              </button>
+              <button class="slide-button">
+                <span class="slide-icon">
+                  <img
+                    src="../../img/medium-training-icon.png"
+                    alt="Plus icon"
+                    class="slide-icon-img"
+                  />
+                </span>
+                <span class="slide-button-text">
+                  <span>Обізнаний</span> <br />
+                  <span>Середній рівень</span>
+                </span>
+              </button>
+              <button class="slide-button">
+                <span class="slide-icon">
+                  <img
+                    src="../../img/high-training-icon.png"
+                    alt="Plus icon"
+                    class="slide-icon-img"
+                  />
+                </span>
+                <span class="slide-button-text">
+                  <span>Професіонал</span> <br />
+                  <span>Складний рівень</span>
+                </span>
+              </button>
+            </div>
+          </section>
+
+          <section class="train-plan-description-container">
+            <div class="training-cell training-plan-container">
+              <div class="change-container">
+                <div>
+                  <header class="training-task-header">
+                    Програма тренувань
+                  </header>
+                </div>
+                <button class="change-btn">
+                  <img
+                    src="../../img/edit-icon.png"
+                    alt=""
+                    class="change-icon"
+                  />
+                </button>
+              </div>
+              <ol class="training-tasks">
+                <li class="training-task-item">10 присідань</li>
+                <li class="training-task-item">4 вправи на прес</li>
+                <li class="training-task-item">2 вправи на розтяжку</li>
+                <li class="training-task-item">10 писідань</li>
+                <li class="training-task-item">4 вправи на прес</li>
+                <li class="training-task-item">2 вправи на розтяжку</li>
+              </ol>
+            </div>
+
+            <div class="training-plan-video-container">
+              <header class="training-plan-video-header">Змінити відео</header>
+              <div class="video">
+                <div class="video-img-preview-container">
+                  <img
+                    src="../../img/vid-recommendation.png"
+                    alt="Recommendation video"
+                    class="video-img-preview"
+                  />
+                  <div class="video-play-icon video-play-icon-1">
+                    <svg
+                      width="68"
+                      height="67"
+                      viewBox="0 0 68 67"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M67.5 33.5C67.5 51.7184 52.5085 66.5 34 66.5C15.4915 66.5 0.5 51.7184 0.5 33.5C0.5 15.2816 15.4915 0.5 34 0.5C52.5085 0.5 67.5 15.2816 67.5 33.5Z"
+                        fill="white"
+                        fill-opacity="0.38"
+                        stroke="#04FD6D"
+                      />
+                      <path
+                        d="M28 32.8743C28 28.6458 32.3775 25.8372 36.2213 27.5995C40.7778 29.6887 40.7203 36.183 36.1275 38.1911C32.2938 39.8674 28 37.0585 28 32.8743Z"
+                        fill="#00FF6C"
+                      />
+                    </svg>
+                  </div>
+                  <div class="video-play-icon video-play-icon-2">
+                    <svg
+                      width="68"
+                      height="67"
+                      viewBox="0 0 68 67"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M67.5 33.5C67.5 51.7184 52.5085 66.5 34 66.5C15.4915 66.5 0.5 51.7184 0.5 33.5C0.5 15.2816 15.4915 0.5 34 0.5C52.5085 0.5 67.5 15.2816 67.5 33.5Z"
+                        fill="white"
+                        fill-opacity="0.38"
+                        stroke="#04FD6D"
+                      />
+                      <path
+                        d="M28 32.8743C28 28.6458 32.3775 25.8372 36.2213 27.5995C40.7778 29.6887 40.7203 36.183 36.1275 38.1911C32.2938 39.8674 28 37.0585 28 32.8743Z"
+                        fill="#00FF6C"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="change-container">
+            <span class="change-text">Змінити опис</span>
+            <button class="change-btn">
+              <img
+                src="../../img/edit-white-icon.png"
+                alt=""
+                class="change-icon"
+              />
+            </button>
+          </div>
+
+          <section class="train-plan-description-container">
+            <p class="train-plan-description-text">
+              Est erat odio parturient venenatis malesuada lectus viverra. Leo,
+              neque neque, at rutrum nisi pulvinar. Ut facilisis odio et aliquet
+              porttitor pharetra. Purus turpis nunc quam tempor, vulputate amet.
+            </p>
+          </section>
+
+          <div class="change-container">
+            <span class="change-text">Змінити тренування</span>
+            <button class="change-btn">
+              <img
+                src="../../img/edit-white-icon.png"
+                alt=""
+                class="change-icon"
+              />
+            </button>
+          </div>
+
+          <div class="change-training-btn-container">
+            <button class="training-task-btn">Тренування №1</button>
+            <button class="training-task-btn">Тренування №2</button>
+            <button class="training-task-btn">Тренування №3</button>
+          </div>
+
+          <div class="ellipse ellipse-5"></div>
+          <div class="ellipse ellipse-6"></div>
+          <div class="ellipse ellipse-7"></div>
+          <div class="ellipse ellipse-8"></div>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="../../js/acc.js"></script>
+    <script defer src="../../js/subscriptions.js"></script>
+  </body>
+</html>

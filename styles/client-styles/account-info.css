@@ -1,0 +1,282 @@
+.container {
+  padding: 120px 96px 96px;
+}
+
+.ellipse-5 {
+  top: 10px;
+  right: -160px;
+  transform: rotate(-98.97deg);
+}
+
+.ellipse-6 {
+  top: 30px;
+  right: 60px;
+  transform: matrix(0.38, -0.86, 1.06, 0.19, 0, 0);
+}
+
+.ellipse-7 {
+  top: -90px;
+  right: 330px;
+  transform: matrix(-0.32, -0.93, 0.99, -0.25, 0, 0);
+}
+
+.ellipse-8 {
+  top: -220px;
+  right: 105px;
+  transform: matrix(-0.32, -0.93, 0.99, -0.25, 0, 0);
+}
+
+/**********************
+  AVATAR AND GREETINGS
+ **********************/
+
+.avatar-greetings {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.avatar-container {
+  width: 200px;
+  height: 200px;
+  background: #00ff6c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.greeting {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.welcome {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+/**********************
+     PROGRAM INFO
+ **********************/
+
+.program-container {
+  margin-top: 64px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+
+.program-name-p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #aaa;
+}
+
+.program-left-time-p {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #aaa;
+}
+
+.program-name {
+  color: #fff;
+}
+
+.program-left-time {
+  color: #00ff6c;
+}
+
+/**********************
+     STATS INFO
+ **********************/
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 60px);
+  gap: 24px;
+  grid-template-areas:
+    "data parameters training"
+    "data parameters training"
+    "data parameters marathon"
+    "payment parameters marathon"
+    "payment parameters ."
+    "payment . .";
+}
+
+.stat {
+  background: #00ff6c;
+  border-radius: 33px;
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.data-stat {
+  grid-area: data;
+}
+
+.payment-stat {
+  grid-area: payment;
+}
+
+.parameters-stat {
+  grid-area: parameters;
+}
+
+.training-stat {
+  grid-area: training;
+}
+
+.marathon-stat {
+  grid-area: marathon;
+}
+
+.stat-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.stat-edit-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.stat-edit-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.stat-content-container {
+  margin: 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.stat-content-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.stat-content-icon-container {
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  box-shadow: 4px 9px 10px rgba(83, 103, 90, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-content-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.stat-content {
+  flex: 1;
+}
+
+.stat-input {
+  background: #ffffff;
+  border-radius: 30px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding-left: 32px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+button.stat-input {
+  padding-left: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #53675a;
+  cursor: pointer;
+}
+
+.stat-input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #53675a;
+}
+
+.stat-select {
+  appearance: none;
+  background-image: url("../../img/select-icon.png");
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  outline: 0;
+}
+
+.stat-select,
+.stat-select option {
+  cursor: pointer;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #53675a;
+}
+
+.stat-num-input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+/*****************
+    SHOW/HIDE
+ ****************/
+
+.show {
+  display: block;
+}

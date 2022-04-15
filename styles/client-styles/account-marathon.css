@@ -1,0 +1,12 @@
+.greeting-container {
+  margin: 0;
+}
+
+.marathon-header {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+}

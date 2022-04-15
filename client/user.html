@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Cabinet</title>
+    <link rel="stylesheet" href="../styles/startup_style.css" />
+    <link rel="stylesheet" href="../styles/client-styles/user.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Ellipses-->
+    <div class="grid grid--user">
+      <div class="user-sidenav">
+        <div class="ellipse ellipse-1"></div>
+        <div class="ellipse ellipse-2"></div>
+        <div class="ellipse ellipse-3"></div>
+        <div class="ellipse ellipse-4"></div>
+        <div class="side-logo">
+          <img
+            class="logo-icon"
+            src="../img/startup-logo.png"
+            alt="Logo of the site"
+          />
+        </div>
+
+        <nav class="nav">
+          <ul class="links">
+            <li class="link-highlighted">
+              <a class="link" href="user.html">
+                <img
+                  src="../img/home-icon.png"
+                  alt="Link icon"
+                  class="link-icon"
+                />
+                <span class="text-link"> Основна </span>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="account-info.html">
+                <img src="../img/acc.png" alt="Link icon" class="link-icon" />
+                <span class="text-link"> Аккаунт </span>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="account-training.html">
+                <img src="../img/task.png" alt="Link icon" class="link-icon" />
+                <span class="text-link"> Моє тренування </span>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="account-marathon.html">
+                <img
+                  src="../img/sneaker_white.png"
+                  alt="Link icon"
+                  class="link-icon"
+                />
+                <span class="text-link"> Марафон </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="payment-notification">
+          <p class="payment-notification-header">Оплата</p>
+          <p class="payment-notification-info">
+            Обери зручну підписку для себе
+          </p>
+          <button class="payment-choose">Переглянути</button>
+        </div>
+        <div class="side-nav-notification">
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.8063 23.8719H15.1931L12.9375 1.125H23.0625L20.8063 23.8719Z"
+              fill="white"
+            />
+            <path
+              d="M17.9994 34.8749C20.38 34.8749 22.3098 32.9494 22.3098 30.5741C22.3098 28.1988 20.38 26.2732 17.9994 26.2732C15.6188 26.2732 13.689 28.1988 13.689 30.5741C13.689 32.9494 15.6188 34.8749 17.9994 34.8749Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+        <footer class="footer-sidenav">
+          <div class="side-media">
+            <img
+              class="side-media-img"
+              src="../img/instagram.png"
+              alt="Instagram"
+            />
+            <img class="side-media-img" src="../img/post.png" alt="Post" />
+            <img
+              class="side-media-img"
+              src="../img/facebook.png"
+              alt="Facebook"
+            />
+          </div>
+        </footer>
+      </div>
+
+      <div class="container">
+        <div class="header">
+          <div class="greeting-container">
+            <h1 class="greeting"></h1>
+            <h2 class="welcome">Вітаємо тебе у системі FANSFIT</h2>
+          </div>
+          <div>
+            <img src="../img/startup-logo.png" alt="Logo of the site" />
+          </div>
+        </div>
+        <nav class="nav-pages">
+          <ul class="pages">
+            <li class="page">Головна</li>
+            <li class="page active-page">Моє тренування</li>
+            <li class="page">Блог</li>
+          </ul>
+        </nav>
+
+        <div class="general-page">
+          <section class="general-page-slider">
+            <div class="slide">
+              <button class="slide-button">
+                <span class="slide-icon">
+                  <img
+                    src="../img/plus-icon.png"
+                    alt="Plus icon"
+                    class="slide-icon-img"
+                  />
+                </span>
+                <span class="slide-button-text"> Обрати тренування </span>
+              </button>
+              <button class="slide-button">
+                <span class="slide-icon">
+                  <img
+                    src="../img/sneaker.png"
+                    alt="Plus icon"
+                    class="slide-icon-img"
+                  />
+                </span>
+                <span class="slide-button-text">
+                  Марафон "Плоский животик"
+                </span>
+              </button>
+              <button class="slide-button">
+                <span class="slide-icon">
+                  <img
+                    src="../img/apple.png"
+                    alt="Plus icon"
+                    class="slide-icon-img"
+                  />
+                </span>
+                <span class="slide-button-text"> Харчування </span>
+              </button>
+            </div>
+          </section>
+          <section class="recommendation">
+            <header class="recommendation-header">
+              Рекомедовано для перегляду
+            </header>
+            <div class="recommendation-videos">
+              <div class="video">
+                <div class="video-img-preview-container">
+                  <img
+                    src="../img/vid-recommendation.png"
+                    alt="Recommendation video"
+                    class="video-img-preview"
+                  />
+                  <div class="video-play-icon">
+                    <svg
+                      width="68"
+                      height="67"
+                      viewBox="0 0 68 67"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M67.5 33.5C67.5 51.7184 52.5085 66.5 34 66.5C15.4915 66.5 0.5 51.7184 0.5 33.5C0.5 15.2816 15.4915 0.5 34 0.5C52.5085 0.5 67.5 15.2816 67.5 33.5Z"
+                        fill="white"
+                        fill-opacity="0.38"
+                        stroke="#04FD6D"
+                      />
+                      <path
+                        d="M29.25 26L41.75 33.5L29.25 41V26Z"
+                        fill="#00FF6C"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="video-description">
+                  <header class="video-description-header">
+                    Як обрати тренування
+                  </header>
+                  <p class="video-description-text">
+                    Etiam vitae, in gravida in nunc, elementum sed. Id hendrerit
+                    amet, netus fel
+                  </p>
+                </div>
+              </div>
+              <div class="video">
+                <div class="video-img-preview-container">
+                  <img
+                    src="../img/vid-recommendation.png"
+                    alt="Recommendation video"
+                    class="video-img-preview"
+                  />
+                  <div class="video-play-icon">
+                    <svg
+                      width="68"
+                      height="67"
+                      viewBox="0 0 68 67"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M67.5 33.5C67.5 51.7184 52.5085 66.5 34 66.5C15.4915 66.5 0.5 51.7184 0.5 33.5C0.5 15.2816 15.4915 0.5 34 0.5C52.5085 0.5 67.5 15.2816 67.5 33.5Z"
+                        fill="white"
+                        fill-opacity="0.38"
+                        stroke="#04FD6D"
+                      />
+                      <path
+                        d="M29.25 26L41.75 33.5L29.25 41V26Z"
+                        fill="#00FF6C"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="video-description">
+                  <header class="video-description-header"></header>
+                  <p class="video-description-text"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <img src="../img/woman-top-user.png" alt="Woman top" class="woman" />
+          <div class="ellipse ellipse-5"></div>
+          <div class="ellipse ellipse-6"></div>
+          <div class="ellipse ellipse-7"></div>
+          <div class="ellipse ellipse-8"></div>
+        </div>
+
+        <div class="training show">
+          <div class="training-task-header-container">
+            <div class="training-task"></div>
+            <div class="training-task-done-container">
+              <svg
+                width="25"
+                height="21"
+                viewBox="0 0 25 21"
+                fill="black"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.5938 2.94792L22.0521 4.40625L8.78125 17.6771L2.94792 11.8438L4.40625 10.3854L8.78125 14.7604L20.5938 2.94792ZM20.5938 0L8.78125 11.8125L4.40625 7.4375L0 11.8438L8.78125 20.625L25 4.40625L20.5938 0Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="training-tasks-container">
+            <ol class="training-tasks">
+              <li class="training-task-item">
+                Lorem ipsum dolor sit amet, consectetur
+              </li>
+              <li class="training-task-item">
+                Lorem ipsum dolor sit amet, consectetur
+              </li>
+              <li class="training-task-item">
+                Lorem ipsum dolor sit amet, consectetur
+              </li>
+              <li class="training-task-item">
+                Lorem ipsum dolor sit amet, consectetur
+              </li>
+              <li class="training-task-item">
+                Lorem ipsum dolor sit amet, consectetur
+              </li>
+              <li class="training-task-item">
+                Lorem ipsum dolor sit amet, consectetur
+              </li>
+            </ol>
+          </div>
+          <div class="slide training-slide">
+            <button class="slide-button task-button">
+              <span class="slide-icon">
+                <img
+                  src="../img/plus-icon.png"
+                  alt="Plus icon"
+                  class="slide-icon-img"
+                />
+              </span>
+              <span class="slide-button-text"> Обрати тренування </span>
+            </button>
+            <button class="slide-button task-button start-training-btn">
+              <span class="slide-button-text"> Розпочати тренування </span>
+              <svg
+                width="15"
+                height="48"
+                viewBox="0 0 15 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.445515 41.1429L9.49873 24L0.445515 6.85714L2.25616 0L14.9307 24L2.25616 48L0.445515 41.1429Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="training-info-container">
+            <div class="training-info">
+              <div class="training-info-flex">
+                <span class="training-time">30 хв</span>
+                <p class="training-description">
+                  Etiam vitae, in gravida in nunc, elementum sed. Id hendrerit
+                  amet, netus felis quam tristique convallis. Viverra commo
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ellipse ellipse-5"></div>
+          <div class="ellipse ellipse-6"></div>
+          <div class="ellipse ellipse-7"></div>
+          <div class="ellipse ellipse-8"></div>
+        </div>
+        <div class="blog">
+          <div class="blog-grid">
+            <div class="post-container post-1">
+              <div class="slide-icon post-icon">
+                <img
+                  src="../img/sneaker.png"
+                  alt="Plus icon"
+                  class="post-icon-md"
+                />
+              </div>
+              <div class="post-description">Про взуття для тренування</div>
+            </div>
+            <div class="post-container post-2">
+              <div class="slide-icon post-icon">
+                <img
+                  src="../img/apple.png"
+                  alt="Plus icon"
+                  class="post-icon-md"
+                />
+              </div>
+              <div class="post-description">
+                Як павильо харчувати дешево і смачно
+              </div>
+            </div>
+            <div class="post-container post-3">
+              <div class="slide-icon post-icon">
+                <img
+                  src="../img/apple.png"
+                  alt="Plus icon"
+                  class="post-icon-md"
+                />
+              </div>
+              <div class="post-description">Про фрукти</div>
+            </div>
+            <div class="post-container post-4">
+              <div class="slide-icon post-icon">
+                <img
+                  src="../img/sneaker.png"
+                  alt="Plus icon"
+                  class="post-icon-md"
+                />
+              </div>
+              <div class="post-description">Про одяг для тренування</div>
+            </div>
+            <div class="post-container post-5">
+              <div class="slide-icon post-icon">
+                <img
+                  src="../img/sneaker.png"
+                  alt="Plus icon"
+                  class="post-icon-md"
+                />
+              </div>
+              <div class="post-description">Про одяг для тренування</div>
+            </div>
+            <div class="post-container post-6">
+              <div class="slide-icon post-icon">
+                <img
+                  src="../img/apple.png"
+                  alt="Plus icon"
+                  class="post-icon-md"
+                />
+              </div>
+              <div class="post-description">
+                Як павильо харчувати дешево і смачно
+              </div>
+            </div>
+            <div class="post-container post-7">
+              <div class="slide-icon post-icon">
+                <img
+                  src="../img/sneaker.png"
+                  alt="Plus icon"
+                  class="post-icon-md"
+                />
+              </div>
+              <div class="post-description">Про взуття для тренування</div>
+            </div>
+            <div class="post-container post-8">
+              <div class="slide-icon post-icon-lg">
+                <svg
+                  width="24"
+                  height="34"
+                  viewBox="0 0 24 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M11.2602 0.161547C4.71437 0.568797 1.2938 4.27567 0.995117 10.979H7.5983C7.68099 8.65698 8.97699 6.92111 11.3901 6.66517C13.7588 6.41373 16.006 6.97792 16.6866 8.59736C17.4218 10.3467 15.7714 12.3796 14.9867 13.2329C13.5344 14.8152 11.1752 15.9695 9.95237 17.6767C8.75368 19.3495 8.54049 21.5506 8.44824 24.2444H14.2679C14.3494 22.522 14.4642 20.8722 15.2477 19.8018C16.5224 18.0625 18.4259 17.2475 20.0211 15.8739C21.5449 14.561 23.1481 12.9787 23.4203 10.5295C24.2376 3.19961 18.2543 -0.274953 11.2602 0.161547Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M11.4096 33.8751C13.4388 33.8751 15.0839 32.255 15.0839 30.2565C15.0839 28.258 13.4388 26.6379 11.4096 26.6379C9.38037 26.6379 7.73535 28.258 7.73535 30.2565C7.73535 32.255 9.38037 33.8751 11.4096 33.8751Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <div class="question">
+                <form action="#">
+                  <div>
+                    <label for="question"
+                      >У тебе залишилися питання? Чи можливо пропозиції до
+                      блогу? Пиши
+                    </label>
+                  </div>
+                  <input
+                    class="question-input"
+                    type="text"
+                    name="question"
+                    id="question"
+                    placeholder="Твоя пропозиція чи запитання"
+                  />
+                  <button class="question-button" type="submit">
+                    <svg
+                      width="10"
+                      height="25"
+                      viewBox="0 0 10 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.466366 21.4286L6.08217 12.5L0.466366 3.57143L1.58953 0L9.45166 12.5L1.58953 25L0.466366 21.4286Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="subscription-buy">
+      <div class="black-logo">
+        <img src="../img/black_logo.png" alt="Logo of the site" />
+      </div>
+      <button class="close-btn close-subscription-win">
+        <svg
+          width="17"
+          height="17"
+          viewBox="0 0 17 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M6.837 8.163L0 15L1.326 16.326L8.163 9.489L15 16.326L16.326 15L9.489 8.163L16.326 1.326L15 0L8.163 6.837L1.326 0L0 1.326L6.837 8.163Z"
+            fill="#53675A"
+          />
+        </svg>
+      </button>
+      <div class="subscription-grid">
+        <div class="subscription subscription-light subscription-1">
+          <span class="subscription-price-light subscription-1-price"></span>
+          <span
+            class="subscription-duration-light subscription-1-duration"
+          ></span>
+        </div>
+        <div class="subscription subscription-light subscription-2">
+          <span class="subscription-price-light subscription-2-price"></span>
+          <span
+            class="subscription-duration-light subscription-2-duration"
+          ></span>
+        </div>
+        <div class="subscription subscription-dark subscription-3">
+          <span class="subscription-price-dark subscription-3-price"></span>
+          <span
+            class="subscription-duration-dark subscription-3-duration"
+          ></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="payment-info">
+      <div class="black-logo">
+        <img src="../img/black_logo.png" alt="Logo of the site" />
+      </div>
+      <button class="close-btn close-payment-win">
+        <svg
+          width="17"
+          height="17"
+          viewBox="0 0 17 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M6.837 8.163L0 15L1.326 16.326L8.163 9.489L15 16.326L16.326 15L9.489 8.163L16.326 1.326L15 0L8.163 6.837L1.326 0L0 1.326L6.837 8.163Z"
+            fill="#53675A"
+          />
+        </svg>
+      </button>
+      <div class="payment-details-container">
+        <h3 class="payment-details-header">Реквізити для оплати</h3>
+        <p class="payment-details-name-p">
+          Ім'я користувача: <span class="payment-details-name">Test</span>
+        </p>
+        <p class="payment-details-program-p">
+          Назва програми тренувань/марафону:
+          <span class="payment-details-program">Test</span>
+        </p>
+        <p class="payment-details-duration-p">
+          Абонимент: <span class="payment-details-duration">Test</span>
+        </p>
+      </div>
+    </div>
+
+    <script defer src="../js/acc.js"></script>
+    <script defer src="../js/subscriptions.js"></script>
+    <script defer src="../js/user.js"></script>
+  </body>
+</html>

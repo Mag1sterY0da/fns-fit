@@ -1,0 +1,71 @@
+.change-container {
+  margin: 32px 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.change-text {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.change-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.change-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.header {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.healthy-eating-container {
+  margin: 24px 0;
+}
+
+.healthy-eating-header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.download-materials {
+  margin-top: 0;
+}
+
+.video-description-header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.video-play-icon-1 {
+  left: 25%;
+}
+
+.video-play-icon-2 {
+  left: 75%;
+}

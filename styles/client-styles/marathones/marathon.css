@@ -1,0 +1,71 @@
+.greeting-container {
+  margin: 0;
+}
+
+.marathon-header {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.marathon-price {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #00ff6c;
+}
+
+.description-container {
+  margin: 48px 0;
+  width: 600px;
+}
+
+.description-header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.description {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.recommendation {
+  margin-top: 0;
+}
+
+.buy-marathon {
+  margin-top: 96px;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.buy-btn {
+  width: 218px;
+  height: 50px;
+  background: linear-gradient(92.69deg, #09bc54 -7.45%, #30ff88 110.57%);
+  border-radius: 5px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  cursor: pointer;
+}

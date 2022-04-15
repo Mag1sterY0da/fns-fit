@@ -1,0 +1,114 @@
+.training-preposition {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0 0 24px;
+}
+
+.slide-button {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.chosed-button {
+  border: 5px solid #00ff6c;
+  box-sizing: border-box;
+  border-radius: 33px;
+  background: #000;
+  color: #fff;
+  box-shadow: 4px 9px 10px rgba(0, 255, 108, 0.23);
+}
+
+.training-task-header {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00290e;
+}
+
+.training-plan-video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.training-plan-video-header {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.video {
+  height: auto;
+}
+
+.train-plan-description-container {
+  width: 1000px;
+  margin: 48px 0;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
+.buy-btn {
+  width: 220px;
+  height: 50px;
+  border-radius: 5px;
+  background: linear-gradient(92.69deg, #09bc54 -7.45%, #30ff88 110.57%);
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.train-plan-description-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.ellipse-5 {
+  bottom: -170px;
+  right: 230px;
+  transform: rotate(16.99deg);
+}
+
+.ellipse-6 {
+  bottom: -40px;
+  right: -50px;
+  transform: matrix(0.73, 0.88, -0.53, 0.72, 0, 0);
+}
+
+.ellipse-7 {
+  bottom: 190px;
+  right: -200px;
+  transform: matrix(0.98, 0.12, -0.2, 0.99, 0, 0);
+}
+
+.ellipse-8 {
+  bottom: -170px;
+  right: -90px;
+  transform: matrix(0.98, 0.12, -0.2, 0.99, 0, 0);
+}

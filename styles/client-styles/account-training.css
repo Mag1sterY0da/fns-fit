@@ -1,0 +1,148 @@
+.training-task-header-container {
+  margin-top: 24px;
+}
+
+.training-slide {
+  margin: 32px 0;
+}
+
+/*****************
+  TRAINING GRID
+ ****************/
+
+.training-grid-container {
+  width: 70%;
+}
+
+.training-grid {
+  display: grid;
+  grid-template-rows: repeat(2, 110px) 260px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "my-training my-training eating"
+    "my-training my-training marathon"
+    "progress progress progress"
+    "progress progress progress"
+    "progress progress progress";
+  gap: 24px;
+}
+
+.training-cell {
+  background: #00ff6c;
+  border-radius: 33px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #00290e;
+}
+
+.my-training-cell {
+  grid-area: my-training;
+}
+
+.eating-cell {
+  grid-area: eating;
+}
+
+.marathon-cell {
+  grid-area: marathon;
+}
+
+.progress-cell {
+  grid-area: progress;
+}
+
+.training-plan-container {
+  padding: 32px;
+}
+
+.eating-cell,
+.marathon-cell {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.training-plan-header {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00290e;
+}
+
+.training-tasks {
+  margin-top: 18px;
+  columns: 2;
+}
+
+.training-task-item {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #00290e;
+  margin-bottom: 18px;
+}
+
+.training-task-item:before {
+  box-shadow: 4px 9px 10px rgba(83, 103, 90, 0.5);
+}
+
+.progress-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+  gap: 24px;
+}
+
+.stat-edit-btn {
+  border: none;
+  background: none;
+}
+
+.stat-edit-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.progress-graph-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-graph {
+  width: 700px;
+  height: 240px;
+}
+
+.ellipse-5 {
+  bottom: -170px;
+  right: 230px;
+  transform: rotate(16.99deg);
+}
+
+.ellipse-6 {
+  bottom: -40px;
+  right: -50px;
+  transform: matrix(0.73, 0.88, -0.53, 0.72, 0, 0);
+}
+
+.ellipse-7 {
+  bottom: 190px;
+  right: -200px;
+  transform: matrix(0.98, 0.12, -0.2, 0.99, 0, 0);
+}
+
+.ellipse-8 {
+  bottom: -170px;
+  right: -90px;
+  transform: matrix(0.98, 0.12, -0.2, 0.99, 0, 0);
+}

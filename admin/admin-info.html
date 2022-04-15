@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Account Info</title>
+    <link rel="stylesheet" href="../styles/startup_style.css" />
+    <link rel="stylesheet" href="../styles/client-styles/user.css" />
+    <link rel="stylesheet" href="../styles/admin-styles/admin-info.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="grid grid--user">
+      <div class="user-sidenav">
+        <div class="ellipse ellipse-1"></div>
+        <div class="ellipse ellipse-2"></div>
+        <div class="ellipse ellipse-3"></div>
+        <div class="ellipse ellipse-4"></div>
+        <div class="side-logo">
+          <img
+            class="logo-icon"
+            src="../img/startup-logo.png"
+            alt="Logo of the site"
+          />
+        </div>
+
+        <nav class="nav">
+          <ul class="links">
+            <li>
+              <a class="link" href="admin.html">
+                <img
+                  src="../img/home-icon.png"
+                  alt="Link icon"
+                  class="link-icon"
+                />
+                <span class="text-link"> Основна </span>
+              </a>
+            </li>
+            <li class="link-highlighted">
+              <a class="link" href="admin-info.html">
+                <img src="../img/acc.png" alt="Link icon" class="link-icon" />
+                <span class="text-link"> Аккаунти </span>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="admin-training.html">
+                <img src="../img/task.png" alt="Link icon" class="link-icon" />
+                <span class="text-link"> Тренування </span>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="admin-marathon.html">
+                <img
+                  src="../img/sneaker_white.png"
+                  alt="Link icon"
+                  class="link-icon"
+                />
+                <span class="text-link"> Марафони </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <footer class="footer-sidenav">
+          <div class="side-media">
+            <img
+              class="side-media-img"
+              src="../img/instagram.png"
+              alt="Instagram"
+            />
+            <img class="side-media-img" src="../img/post.png" alt="Post" />
+            <img
+              class="side-media-img"
+              src="../img/facebook.png"
+              alt="Facebook"
+            />
+          </div>
+        </footer>
+      </div>
+
+      <div class="container">
+        <div class="greeting-container">
+          <h1 class="greeting">Привіт, @olivia</h1>
+          <h2 class="welcome">Вітаємо тебе у системі FANSFIT</h2>
+        </div>
+        <div class="search-container">
+          <form action="" class="search-form">
+            <div>
+              <label for="search"></label>
+              <input
+                type="text"
+                name="search"
+                id="search"
+                class="search-input"
+              />
+            </div>
+            <button type="submit" class="search-btn">
+              <img
+                src="../img/search-icon.png"
+                alt="Search account"
+                class="search-icon"
+              />
+            </button>
+          </form>
+        </div>
+
+        <div class="users-table-container">
+          <table class="users-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Користувач</th>
+                <th>Статус</th>
+                <th>Програма</th>
+                <th>Марафон</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="edit-user-container">
+                    <button class="edit-user-btn">
+                      <img
+                        src="../img/edit-icon.png"
+                        alt="Edit icon"
+                        class="edit-icon"
+                      />
+                    </button>
+                  </div>
+                </td>
+                <td>
+                  <div>@Valiya</div>
+                  <div class="user-email">valiya228@gmail.com</div>
+                </td>
+                <td>
+                  <label for="status-1"></label>
+                  <select name="status" id="status-1" class="select-status">
+                    <option value="1 mon">Оплачено 1 міс</option>
+                    <option value="6 mon">Оплачено 6 міс</option>
+                    <option value="12 mon">Оплачено 12 міс</option>
+                    <option value="marathon">Марафон</option>
+                    <option value="program">Програма</option>
+                  </select>
+                </td>
+                <td>Easy</td>
+                <td>Немає</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="edit-user-container">
+                    <button class="edit-user-btn">
+                      <img
+                        src="../img/edit-icon.png"
+                        alt="Edit icon"
+                        class="edit-icon"
+                      />
+                    </button>
+                  </div>
+                </td>
+                <td>
+                  <div>@Valiya</div>
+                  <div class="user-email">valiya228@gmail.com</div>
+                </td>
+                <td>
+                  <label for="status-2"></label>
+                  <select name="status" id="status-2" class="select-status">
+                    <option value="1 mon">Оплачено 1 міс</option>
+                    <option value="6 mon" selected>Оплачено 6 міс</option>
+                    <option value="12 mon">Оплачено 12 міс</option>
+                    <option value="marathon">Марафон</option>
+                    <option value="program">Програма</option>
+                  </select>
+                </td>
+                <td>Easy</td>
+                <td>Немає</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="ellipse ellipse-5"></div>
+    <div class="ellipse ellipse-6"></div>
+    <div class="ellipse ellipse-7"></div>
+    <div class="ellipse ellipse-8"></div>
+  </body>
+</html>

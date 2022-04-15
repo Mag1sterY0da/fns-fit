@@ -1,103 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>FNS Fit</title>
-  <link rel="stylesheet" href="styles/startup_style.css">
-  <link rel="stylesheet" href="styles/about.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="js/index.js"></script>
-</head>
-<body>
-<!--Animation on startup-->
-<div class="ellipse ellipse-1"></div>
-<div class="ellipse ellipse-2"></div>
-<div class="ellipse ellipse-3"></div>
-<div class="ellipse ellipse-4"></div>
-<div class="startup-content">
-  <header class="logo">
-    <img class="logo-icon" src="img/startup-logo.png" alt="Logo of the site">
-  </header>
-  <nav class="nav-menu">
-    <div class="burger-menu" onclick="openNav()">
-      <img class="burger-menu-icon" src="img/burger-menu.png" alt="Burger menu">
-    </div>
-    <input class="login-button" type="button" name="login" id="login" value="Login"/>
-  </nav>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">
-      <img class="burger-menu-side" src="img/burger-menu.png" alt="Burger menu">
-    </a>
-    <div class="side-section-1">
-      <a class="side-link" href="lesson.html">Заняття</a>
-      <a class="side-link" href="about.html">Про мене</a>
-      <a class="side-link" href="eating.html">Харчування</a>
-      <a class="side-link" href="reviews.html">Відгуки</a>
-      <a class="side-link" href="service.html">Про сервіс</a>
-    </div>
-    <div class="side-section-2">
-      <a class="side-link" href="">Увійти</a>
-      <a class="side-link" href="">Зареєструватися</a>
-      <a class="side-link" href="">Пробне заняття</a>
-      <a class="side-link-special" href="">Отримати подарунок</a>
-    </div>
-    <div class="side-section-3">
-      <div class="side-logo">
-        <img class="logo-icon" src="img/startup-logo.png" alt="Logo of the site">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FNS Fit</title>
+    <link rel="stylesheet" href="styles/startup_style.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Animation on startup-->
+    <div class="ellipse ellipse-1"></div>
+    <div class="ellipse ellipse-2"></div>
+    <div class="ellipse ellipse-3"></div>
+    <div class="ellipse ellipse-4"></div>
+    <div class="startup-content">
+      <header class="logo">
+        <img
+          class="logo-icon"
+          src="img/startup-logo.png"
+          alt="Logo of the site"
+        />
+      </header>
+      <nav class="nav-menu">
+        <div class="burger-menu" onclick="openNav()">
+          <img
+            class="burger-menu-icon"
+            src="img/burger-menu.png"
+            alt="Burger menu"
+          />
+        </div>
+        <input
+          class="login-button"
+          type="button"
+          name="login"
+          id="login"
+          value="Login"
+        />
+      </nav>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">
+          <img
+            class="burger-menu-side"
+            src="img/burger-menu.png"
+            alt="Burger menu"
+          />
+        </a>
+        <div class="side-section-1">
+          <a class="side-link" href="lesson.html">Заняття</a>
+          <a class="side-link" href="about.html">Про мене</a>
+          <a class="side-link" href="eating.html">Харчування</a>
+          <a class="side-link" href="reviews.html">Відгуки</a>
+          <a class="side-link" href="service.html">Про сервіс</a>
+        </div>
+        <div class="side-section-2">
+          <a class="side-link sign">Увійти</a>
+          <a class="side-link reg">Зареєструватися</a>
+          <a class="side-link" href="">Пробне заняття</a>
+          <a class="side-link-special" href="">Отримати подарунок</a>
+        </div>
+        <div class="side-section-3">
+          <div class="side-logo">
+            <img
+              class="logo-icon"
+              src="img/startup-logo.png"
+              alt="Logo of the site"
+            />
+          </div>
+          <div class="side-media">
+            <img
+              class="side-media-img"
+              src="img/instagram.png"
+              alt="Instagram"
+            />
+            <img class="side-media-img" src="img/post.png" alt="Post" />
+            <img class="side-media-img" src="img/facebook.png" alt="Facebook" />
+          </div>
+        </div>
       </div>
-      <div class="side-media">
-        <img class="side-media-img" src="img/instagram.png" alt="Instagram">
-        <img class="side-media-img" src="img/post.png" alt="Post">
-        <img class="side-media-img" src="img/facebook.png" alt="Facebook">
+      <section class="info">
+        <h1 class="info-heading">Tellus risus quis pretium</h1>
+        <p class="info-paragraph">
+          Est erat odio parturient venenatis malesuada lectus viverra. Leo,
+          neque neque, at rutrum nisi pulvinar. Ut facilisis odio et aliquet
+          porttitor pharetra. Purus turpis nunc quam tempor, vulputate amet.
+        </p>
+      </section>
+      <img class="woman-top-img" src="img/about-woman-top.png" alt="Woman" />
+      <img
+        class="woman-bottom-img"
+        src="img/about-woman-bottom.png"
+        alt="Woman"
+      />
+      <div class="slider">
+        <div class="slider-top-container">
+          <p class="slider-range-start">03</p>
+          <p class="slider-range-end">06</p>
+        </div>
+        <div class="slider-line">
+          <svg class="slider-line-start">
+            <line
+              x1="80"
+              y1="0"
+              x2="120"
+              y2="0"
+              style="stroke: rgba(255, 255, 255, 1); stroke-width: 2"
+            />
+          </svg>
+          <svg class="slider-line-end">
+            <line
+              x1="0"
+              y1="0"
+              x2="240"
+              y2="0"
+              style="stroke: rgba(255, 255, 255, 0.3); stroke-width: 2"
+            />
+          </svg>
+        </div>
+        <div class="slider-links">
+          <a class="slider-link" href="lesson.html"
+            ><span class="material-icons">arrow_back_ios</span></a
+          >
+          <p class="slider-info">Lorem ipsum</p>
+          <a class="slider-link" href="eating.html"
+            ><span class="material-icons"> arrow_forward_ios</span></a
+          >
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-flex">
+          <div class="footer-info">
+            <h2 class="footer-heading">Про...</h2>
+            <p class="footer-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus
+              netus adipiscing.
+            </p>
+          </div>
+          <div class="footer-gift">
+            <img
+              class="footer-gift-img"
+              src="img/gift-link.png"
+              alt="Gift link"
+            />
+            <a class="footer-gift-link" href="">Подарунок для тебе</a>
+          </div>
+        </div>
+        <div class="footer-vid">
+          <img class="footer-vid-elem" src="img/vid.png" alt="Video" />
+        </div>
+      </footer>
+    </div>
+    <div class="sign-in">
+      <div class="grid grid--2-cols height-100">
+        <div class="sign-in-img-container"></div>
+        <div class="form-container">
+          <button class="close-win-sign-in">
+            <svg
+              width="17"
+              height="17"
+              viewBox="0 0 17 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6.837 8.163L0 15L1.326 16.326L8.163 9.489L15 16.326L16.326 15L9.489 8.163L16.326 1.326L15 0L8.163 6.837L1.326 0L0 1.326L6.837 8.163Z"
+                fill="#53675A"
+              />
+            </svg>
+          </button>
+          <h3 class="sign-in-header">Увійти</h3>
+          <form action="#" class="sign-in-form">
+            <div>
+              <label for="email-sign-in">Email</label><br />
+              <input
+                class="sign-in-input"
+                type="email"
+                name="email"
+                id="email-sign-in"
+                placeholder="ivanovivan@gmail.com"
+              />
+            </div>
+            <div>
+              <label for="pass-sign-in">Password</label><br />
+              <input
+                class="sign-in-input sign-in-pass"
+                type="password"
+                name="pass"
+                id="pass-sign-in"
+              />
+            </div>
+            <button type="submit" class="sign-in-button">Увійти</button>
+            <span class="or">Або</span>
+            <button class="sign-up-google">
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.5 0C5.59583 0 0 5.59687 0 12.5C0 19.4031 5.59583 25 12.5 25C19.4031 25 25 19.4031 25 12.5C25 5.59687 19.4031 0 12.5 0ZM12.6458 19.8104C8.61667 19.8104 5.35417 16.5396 5.35417 12.5C5.35417 8.46042 8.61667 5.18958 12.6458 5.18958C14.6146 5.18958 16.2604 5.91562 17.5229 7.09479L15.4667 9.15521V9.15104C14.701 8.41979 13.7302 8.04479 12.6458 8.04479C10.2396 8.04479 8.28438 10.0823 8.28438 12.4958C8.28438 14.9073 10.2396 16.951 12.6458 16.951C14.8292 16.951 16.3146 15.699 16.6208 13.9802H12.6458V11.1292H19.5052C19.5969 11.6187 19.6458 12.1292 19.6458 12.6646C19.6458 16.8417 16.8573 19.8104 12.6458 19.8104Z"
+                  fill="white"
+                />
+              </svg>
+              Увійти за допомогою Google
+            </button>
+          </form>
+          <footer class="sign-in-footer">
+            <div class="side-logo">
+              <img
+                class="logo-icon"
+                src="img/startup-logo.png"
+                alt="Logo of the site"
+              />
+            </div>
+            <div class="side-media">
+              <img
+                class="side-media-img"
+                src="img/instagram.png"
+                alt="Instagram"
+              />
+              <img class="side-media-img" src="img/post.png" alt="Post" />
+              <img
+                class="side-media-img"
+                src="img/facebook.png"
+                alt="Facebook"
+              />
+            </div>
+          </footer>
+        </div>
       </div>
     </div>
-  </div>
-  <section class="info">
-    <h1 class="info-heading">Tellus risus quis pretium</h1>
-    <p class="info-paragraph">Est erat odio parturient venenatis malesuada lectus viverra. Leo, neque neque, at rutrum
-      nisi pulvinar. Ut facilisis odio et aliquet porttitor pharetra. Purus turpis nunc quam tempor, vulputate amet.</p>
-  </section>
-  <img class="woman-top-img" src="img/about-woman-top.png" alt="Woman">
-  <img class="woman-bottom-img" src="img/about-woman-bottom.png" alt="Woman">
-  <div class="slider">
-    <div class="slider-top-container">
-      <p class="slider-range-start">03</p>
-      <p class="slider-range-end">06</p>
-    </div>
-    <div class="slider-line">
-      <svg class="slider-line-start">
-        <line x1="80" y1="0" x2="120" y2="0" style="stroke:rgba(255,255,255,1);stroke-width:2"/>
-      </svg>
-      <svg class="slider-line-end">
-        <line x1="0" y1="0" x2="240" y2="0" style="stroke:rgba(255,255,255,0.3);stroke-width:2"/>
-      </svg>
-    </div>
-    <div class="slider-links">
-      <a class="slider-link" href="lesson.html"><span class="material-icons">arrow_back_ios</span></a>
-      <p class="slider-info">Lorem ipsum</p>
-      <a class="slider-link" href="eating.html"><span class="material-icons"> arrow_forward_ios</span></a>
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="footer-flex">
-      <div class="footer-info">
-        <h2 class="footer-heading">Про...</h2>
-        <p class="footer-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus netus
-          adipiscing.</p>
+    <div class="registration">
+      <div class="grid grid--2-cols height-100">
+        <div class="sign-in-img-container"></div>
+        <div class="form-container">
+          <button class="close-win-reg">
+            <svg
+              width="17"
+              height="17"
+              viewBox="0 0 17 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6.837 8.163L0 15L1.326 16.326L8.163 9.489L15 16.326L16.326 15L9.489 8.163L16.326 1.326L15 0L8.163 6.837L1.326 0L0 1.326L6.837 8.163Z"
+                fill="#53675A"
+              />
+            </svg>
+          </button>
+          <h3 class="sign-in-header">Реєстрація</h3>
+          <form action="#" class="sign-in-form">
+            <div>
+              <label for="email_reg">Email</label><br />
+              <input
+                class="sign-in-input"
+                type="email"
+                name="email"
+                id="email_reg"
+                placeholder="ivanovivan@gmail.com"
+              />
+            </div>
+            <div>
+              <label for="pass_reg">Password</label><br />
+              <input
+                class="sign-in-input sign-in-pass"
+                type="password"
+                name="pass"
+                id="pass_reg"
+              />
+            </div>
+            <button type="submit" class="sign-in-button">
+              Зареєструватися
+            </button>
+            <span class="or">Або</span>
+            <button class="sign-up-google">
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.5 0C5.59583 0 0 5.59687 0 12.5C0 19.4031 5.59583 25 12.5 25C19.4031 25 25 19.4031 25 12.5C25 5.59687 19.4031 0 12.5 0ZM12.6458 19.8104C8.61667 19.8104 5.35417 16.5396 5.35417 12.5C5.35417 8.46042 8.61667 5.18958 12.6458 5.18958C14.6146 5.18958 16.2604 5.91562 17.5229 7.09479L15.4667 9.15521V9.15104C14.701 8.41979 13.7302 8.04479 12.6458 8.04479C10.2396 8.04479 8.28438 10.0823 8.28438 12.4958C8.28438 14.9073 10.2396 16.951 12.6458 16.951C14.8292 16.951 16.3146 15.699 16.6208 13.9802H12.6458V11.1292H19.5052C19.5969 11.6187 19.6458 12.1292 19.6458 12.6646C19.6458 16.8417 16.8573 19.8104 12.6458 19.8104Z"
+                  fill="white"
+                />
+              </svg>
+              Зареєструватися за допомогою Google
+            </button>
+          </form>
+          <footer class="sign-in-footer">
+            <div class="side-logo">
+              <img
+                class="logo-icon"
+                src="img/startup-logo.png"
+                alt="Logo of the site"
+              />
+            </div>
+            <div class="side-media">
+              <img
+                class="side-media-img"
+                src="img/instagram.png"
+                alt="Instagram"
+              />
+              <img class="side-media-img" src="img/post.png" alt="Post" />
+              <img
+                class="side-media-img"
+                src="img/facebook.png"
+                alt="Facebook"
+              />
+            </div>
+          </footer>
+        </div>
       </div>
-      <div class="footer-gift">
-        <img class="footer-gift-img" src="img/gift-link.png" alt="Gift link">
-        <a class='footer-gift-link' href="">Подарунок для тебе</a>
-      </div>
     </div>
-    <div class="footer-vid">
-      <img class="footer-vid-elem" src="img/vid.png" alt="Video">
-    </div>
-  </footer>
-</div>
-</body>
+    <script defer src="js/index.js"></script>
+  </body>
 </html>

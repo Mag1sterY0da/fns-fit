@@ -1,0 +1,128 @@
+.container {
+  z-index: 1;
+}
+
+.greeting-container {
+  justify-content: start;
+  align-items: stretch;
+}
+
+/***************
+  SEARCH INPUT
+ **************/
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 32px;
+}
+
+.search-input {
+  width: 265px;
+  height: 38px;
+  border: 2px solid #00ff6c;
+  border-radius: 30px;
+  background: none;
+  color: #fff;
+  padding-left: 24px;
+  font-family: "Prosto One", sans-serif;
+}
+
+.search-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+}
+
+/*****************
+  TABLE OF USERS
+ ****************/
+
+.users-table {
+  margin-top: 48px;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.users-table th {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.users-table tbody tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.users-table td {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 16px 0;
+}
+
+.edit-user-btn {
+  border-radius: 50%;
+  background: #00ff6c;
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.select-status {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #000;
+  border: none;
+}
+
+.select-status::-ms-expand {
+  display: none; /* Remove default arrow in Internet Explorer 10 and 11 */
+}
+
+.ellipse-5 {
+  top: 0;
+  right: -60px;
+  transform: rotate(-98.97deg);
+}
+
+.ellipse-6 {
+  top: 30px;
+  right: 60px;
+  transform: matrix(0.38, -0.86, 1.06, 0.19, 0, 0);
+}
+
+.ellipse-7 {
+  top: -60px;
+  right: 340px;
+  transform: matrix(-0.32, -0.93, 0.99, -0.25, 0, 0);
+}
+
+.ellipse-8 {
+  top: -220px;
+  right: 102px;
+  transform: matrix(-0.32, -0.93, 0.99, -0.25, 0, 0);
+}

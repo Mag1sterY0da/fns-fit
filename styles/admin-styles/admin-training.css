@@ -1,0 +1,60 @@
+.slide-button-text {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.change-recommendation-container {
+  margin: 64px 0 48px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.change-recommendation-text {
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.change-recommendation-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.change-recommendation-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.ellipse-5 {
+  bottom: -170px;
+  right: 230px;
+  transform: rotate(16.99deg);
+}
+
+.ellipse-6 {
+  bottom: -40px;
+  right: -50px;
+  transform: matrix(0.73, 0.88, -0.53, 0.72, 0, 0);
+}
+
+.ellipse-7 {
+  bottom: 190px;
+  right: -200px;
+  transform: matrix(0.98, 0.12, -0.2, 0.99, 0, 0);
+}
+
+.ellipse-8 {
+  bottom: -170px;
+  right: -90px;
+  transform: matrix(0.98, 0.12, -0.2, 0.99, 0, 0);
+}
