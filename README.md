@@ -3,6 +3,10 @@
 The website was built quickly and without great attention and responsibility.
 I created a few pages from the draft, added animations and transactions for some elements. Not much work, but my first experience with Figma.
 
+## Demo
+
+The site hosted on Netlify
+
 [DEMO Main pages](https://fns-fit-mag.netlify.app/) <br />
 
 [DEMO User's menu](https://fns-fit-mag.netlify.app/client/user/)
